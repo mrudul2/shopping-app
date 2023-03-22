@@ -1,0 +1,106 @@
+*{
+    margin: unset;
+    padding: unset;
+}
+
+body{
+    background-image:url("./images/my-bag.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+nav{
+    background: #345e51;
+    height: 3rem;
+    line-height: 3rem;
+    color:rgb(208, 228, 226);
+    padding-left:2rem ;
+    margin-bottom: 1rem;
+}
+
+.container{
+    padding: 1rem;
+}
+
+#itemForm label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#itemForm input{
+    height: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #bfbfbf;
+    background-color: #8d9794;
+}
+
+#quan-input, #price-input{
+    width: 3rem;
+}
+
+#add_item_button{
+    border: unset;
+    background: #345e51;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+#item-div{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#totalPriceDiv{
+    background-color:  #458671;
+    width: 8rem;
+    border-radius: 7px;
+    color: rgb(208, 228, 226);;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    background: #eaeaea;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    justify-content: end;
+    border-radius:5px;
+}
+
+
+.checkbox{
+    border-radius: 5px;
+    height: 100%;
+    width: 2.5rem;
+}
+
+.item-info{
+    text-align: center;
+}
+
+.delete-Button{
+    margin: 0 0 0 auto;
+    border: unset;
+    background-color: rgb(181, 65, 65);
+    color: #fff;
+    font-size: 0.8rem;
+    width: 2.5rem;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.delete-Button:active{
+    margin-top: 2px;
+}
+
+.purchased{
+    background-color: #425b4c;
+    color:#fff;
+}
+
+.purchased p{
+    text-decoration: line-through;
+}
