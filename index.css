@@ -80,7 +80,7 @@ nav p{
     grid-template-columns: 1fr 4fr 1fr;
     background: #9cafa8;
     margin-bottom: 0.5rem;
-    width: 80%;
+    width: auto;
     justify-content: end;
     border-radius:5px;
 }
