@@ -20,24 +20,25 @@
         </script>
 
 </head>
+<nav>
+    <p>My Shopping List</p>
+</nav>
 <body>
-    <nav>
-        <p>My Shopping List</p>
-    </nav>
+    
    <div class="container">
     <form id="itemForm">
 
-        <label>
+        <label style="color: azure;">
             Name of Item:
             <input type="text" id="name_input" required>
         </label>
 
-        <label>
+        <label style="color: azure;">
             Quantity:
             <input type="number" id="quan_input" value="1">
         </label>
 
-        <label>
+        <label style="color: azure;">
             Price:
             <input type="number" id="price_input" value="0">
         </label> 
@@ -46,10 +47,8 @@
     </form>
    </div> 
 
-
     <div id="itemDiv"></div>
     <div id="totalPriceDiv"></div>
-
     <script src="./index.js"></script>
 </body>
 </html>
