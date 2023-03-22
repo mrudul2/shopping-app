@@ -66,11 +66,13 @@ nav p{
 }
 
 #totalPriceDiv{
-    background-color:  #458671;
+    background-color:  #426e60;
     width: 8rem;
     border-radius: 7px;
     color: rgb(208, 228, 226);
     text-align: center;
+    margin: 0 auto;
+    
 }
 
 .item{
